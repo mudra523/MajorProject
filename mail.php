@@ -9,7 +9,7 @@ if($result){
         while($row = mysqli_fetch_array($result)){
             $to = $row['U_EMAIL'];
             $subject = "Ldrp CE-IT Notify you...";
-            $txt = "Hey There is Official notification from clg do checkout and download if yo want to! ";
+            $txt = "Hey There is Official notification from college do checkout and download if you want to! ";
             $headers = "From: ceit.ldrp@gmail.com" . "\r\n" .
             "CC: ceit.ldrp@gmail.com";
             mail($to,$subject,$txt,$headers);

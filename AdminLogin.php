@@ -229,7 +229,7 @@
                       <div class="card bgroudcolor shadow" style="padding:20px 30px;border-radius:6px;box-shadow: 4px 2px 9px 3px #ccc8c8;">
                         <div class="card-body ">
                           <form action="" method="POST" >
-                            <div data-netlify-recaptcha="true">
+                           
                             <div class="form-group">
                               <label class='text_white'>Email</label>
                               <input type="text" class="form-control" id="email" name="email" placeholder="Enter email">
@@ -243,7 +243,7 @@
                             <div class="pt-3 text-center">
                               <button type="submit" class="login-btn" id="submit" name="submit">Login</button>
                             </div>
-                            </div>
+                            
                           </form>
                         </div>
                       </div>
