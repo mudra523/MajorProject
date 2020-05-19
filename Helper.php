@@ -21,7 +21,7 @@ class Helper
     {
         for ($i = 1; $i <= 8; $i++) {
             $w = self::NumberToWord($i);
-            echo "<a class='dropdown-item nav-link text-dark font-italic bg-light ajax-call' data-value='$w' data-category='$category'>Semester $i</a>";
+            echo "<a class='dropdown-item nav-link text-dark font-italic bg-light ajax-call' data-value='$w' data-category='$category'>Semester $i <br></a>";
         }
     }
 }

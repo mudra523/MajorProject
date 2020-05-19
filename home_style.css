@@ -1021,6 +1021,10 @@ SECTIONS
 
 .video-section {
     position: relative;
+    background-image: url('images/LDRP-back.png');
+    background-repeat: no-repeat ;
+    height: 434px;
+    width: 100%;
 }
 
 .slider-bottom {
